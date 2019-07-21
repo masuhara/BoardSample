@@ -1,0 +1,82 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - FontAwesome.swift (1.7.1)
+  - IQKeyboardManager (6.4.0)
+  - KafkaRefresh (1.4.7):
+    - KafkaRefresh/Category (= 1.4.7)
+    - KafkaRefresh/Configuration (= 1.4.7)
+    - KafkaRefresh/Core (= 1.4.7)
+    - KafkaRefresh/Default (= 1.4.7)
+    - KafkaRefresh/Style (= 1.4.7)
+    - KafkaRefresh/UIKit (= 1.4.7)
+  - KafkaRefresh/Category (1.4.7)
+  - KafkaRefresh/Configuration (1.4.7):
+    - KafkaRefresh/UIKit/FootKit
+    - KafkaRefresh/UIKit/HeadKit
+  - KafkaRefresh/Core (1.4.7):
+    - KafkaRefresh/Category
+  - KafkaRefresh/Default (1.4.7):
+    - KafkaRefresh/Style
+  - KafkaRefresh/Style (1.4.7)
+  - KafkaRefresh/UIKit (1.4.7):
+    - KafkaRefresh/UIKit/FootKit (= 1.4.7)
+    - KafkaRefresh/UIKit/HeadKit (= 1.4.7)
+    - KafkaRefresh/UIKit/LayerKit (= 1.4.7)
+  - KafkaRefresh/UIKit/FootKit (1.4.7):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/HeadKit (1.4.7):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Core
+    - KafkaRefresh/Default
+    - KafkaRefresh/Style
+    - KafkaRefresh/UIKit/LayerKit
+  - KafkaRefresh/UIKit/LayerKit (1.4.7):
+    - KafkaRefresh/Category
+    - KafkaRefresh/Default
+  - Kingfisher (5.6.0)
+  - MBProgressHUD (1.1.0)
+  - NCMB (3.0.1)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - FontAwesome.swift
+  - IQKeyboardManager
+  - KafkaRefresh
+  - Kingfisher
+  - MBProgressHUD
+  - NCMB (from `https://github.com/NIFCloud-mbaas/ncmb_ios.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DZNEmptyDataSet
+    - FontAwesome.swift
+    - IQKeyboardManager
+    - KafkaRefresh
+    - Kingfisher
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  NCMB:
+    :git: https://github.com/NIFCloud-mbaas/ncmb_ios.git
+
+CHECKOUT OPTIONS:
+  NCMB:
+    :commit: ee91ac4978b78f244b4c4d838aa0287b05da4b64
+    :git: https://github.com/NIFCloud-mbaas/ncmb_ios.git
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FontAwesome.swift: 8d9792fa2d2347055da35bd97752b3960bd75952
+  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
+  KafkaRefresh: a7962ea8f03f384c1b545d8c27ac419aa0d5b055
+  Kingfisher: 1a50df6880a60bae26f3e21a0df3d17b892f5e0b
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  NCMB: 470e5d51a643b0b77487792c179c1454ee0a55ae
+
+PODFILE CHECKSUM: 4e75d51fa5f42f7f8d89d38560a8bb551118a8b3
+
+COCOAPODS: 1.7.0

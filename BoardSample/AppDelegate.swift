@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import NCMB
+import IQKeyboardManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        NCMB.setApplicationKey("da26ffa38f011b0bc01da417d74f2ae09610e9082aa00dbea613f9f3608a287d", clientKey: "2fba74d75c55ee0dfdfdb62f572b72dda1e822c6ed75be9de7abb16f08ec715e")
+        
+        IQKeyboardManager.shared().isEnabled = true
+        
+        if NCMBUser.current() == nil {
+            SegueManager.show(display: .login)
+        } else {
+            SegueManager.show(display: .main)
+        }
+        
         return true
     }
 
